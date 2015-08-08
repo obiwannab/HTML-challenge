@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+/* Workaround for browsers that have not implemented the new HTML5 tags */
+header, footer, main, section, article, aside, nav {
+    display: block;
+}
+
+/* Overriding browser defaults */
+html, body, h1, h2, ul, ol, li, a, p, img,
+header, footer, main, section, article, aside, nav {
+    padding: 0;
+    margin: 0;
+}
+
+/* Website Background */
+body {
+    font: 10pt 'Quicksand', sans-serif;
+    background: url(img/seaBG.png) #729cbf;
+}
+
+/* Navigation Bar */
+nav {
+    float: right;
+    width: 15%;
+    background: #94b1c6;
+    padding-left: 25px;
+}
+
+/* Main Content Area */
+main {
+    width: 60%;
+    background: #94b1c6;
+    margin: 10 auto;
+}
+
+#title {
+    width: 60%;
+    background: #94b1c6;
+    border-bottom: solid;
+    border-bottom-width: medium;
+    border-bottom-color: 355367;
+}
+
+#topImage {
+    width: 100%;
+    background: #94b1c6;
+}
+
+.leftColumn {
+    float: left;
+    width: 50%;
+}
+
+.rightColumn {
+    float: right;
+    width: 50%;
+}
+
+/* Section Headers */
+h2 {
+    font-family:'Rammetto One', cursive;
+    font-color: 355367;
+}
+
+/* Bottom Border */
+footer {
+    clear: both;
+}
+
+#bottomBorder {
+    width: 100%;
+}
