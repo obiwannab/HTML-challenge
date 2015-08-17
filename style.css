@@ -28,14 +28,19 @@ nav {
 
 /* Main Content Area */
 main {
+    margin: auto;
     width: 60%;
+    padding: 5px;
     background: #94b1c6;
-    margin: 10 auto;
 }
-
+/*
+section {
+    background: #94b1c6;
+}
+*/
 #title {
     width: 60%;
-    background: #94b1c6;
+    /*background: #94b1c6;*/
     border-bottom: solid;
     border-bottom-width: medium;
     border-bottom-color: 355367;
@@ -43,17 +48,21 @@ main {
 
 #topImage {
     width: 100%;
-    background: #94b1c6;
+    /*background: #94b1c6;*/
 }
 
-.leftColumn {
+#leftColumn {
     float: left;
-    width: 50%;
+    width: 45%;
+    margin: 5px;
+    padding: 5px;
 }
 
-.rightColumn {
+#rightColumn {
     float: right;
-    width: 50%;
+    width: 45%;
+    margin: 5px;
+    padding: 5px;
 }
 
 /* Section Headers */
